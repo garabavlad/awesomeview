@@ -1,0 +1,360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Envo Blog\n"
+"POT-Creation-Date: 2018-05-02 10:58+0200\n"
+"PO-Revision-Date: 2015-12-08 20:48+0100\n"
+"Last-Translator: Envo Blog <info@envothemes.com>\n"
+"Language-Team: Envo Blog <info@envothemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/kirki\n"
+
+#: 404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:15
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-single.php:15 content.php:24
+#: includes/widgets/split-images-news.php:100
+#: includes/widgets/split-images-news.php:120
+msgid "By"
+msgstr ""
+
+#: content.php:31
+msgid "Read More"
+msgstr ""
+
+#: functions.php:20
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:21
+msgid "Top Menu Left"
+msgstr ""
+
+#: functions.php:22
+msgid "Top Menu Right"
+msgstr ""
+
+#: functions.php:123
+msgctxt "Quicksand font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:200
+msgid "Homepage Full Width Section #1"
+msgstr ""
+
+#: functions.php:210
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Section"
+msgstr ""
+
+#: functions.php:264
+msgid "Category"
+msgstr ""
+
+#: functions.php:268
+msgid "Tags"
+msgstr ""
+
+#: functions.php:290
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:290
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:292
+#, php-format
+msgid "Theme: %1$s"
+msgstr ""
+
+#: functions.php:342
+msgid "Off"
+msgstr ""
+
+#: functions.php:344
+msgid "Comment on "
+msgstr ""
+
+#: includes/widgets/popular-posts.php:19
+msgid ""
+"Displays your popular posts with thumbnail and date. Recommended use: in "
+"sidebar or footer"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:22
+msgid "Envo Blog: Popular Posts"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:101
+msgid "Popular posts"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:106
+#: includes/widgets/recent-posts.php:104
+#: includes/widgets/split-images-news.php:166
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:112
+#: includes/widgets/recent-posts.php:110
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:19
+msgid ""
+"Displays your recent posts with thumbnail and date. Recommended use: in "
+"sidebar or footer"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:22
+msgid "Envo Blog: Recent Posts"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:99 lib/demo-preview.php:74
+msgid "Recent posts"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:17
+msgid "Widget to display news in three columns layout."
+msgstr ""
+
+#: includes/widgets/split-images-news.php:20
+msgid "Envo Blog: Split Images News"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:172
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:182
+msgid "All Categories"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:189
+msgid "View All Text:"
+msgstr ""
+
+#: includes/widgets/split-images-news.php:192
+msgid "Leave this field empty if you want to hide it."
+msgstr ""
+
+#: includes/widgets/split-images-news.php:197
+msgid "Number of Posts:"
+msgstr ""
+
+#: lib/customizer/info.php:11
+msgid "Video Documentation & Demo"
+msgstr ""
+
+#: lib/customizer/info.php:25
+#, php-format
+msgid "You can use this theme to create a website like these %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:25
+msgid "demos"
+msgstr ""
+
+#: lib/customizer/info.php:28
+#, php-format
+msgid "For step-by-step videos and text tutorials, see %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:28
+msgid "documentation"
+msgstr ""
+
+#: lib/customizer/info.php:143 lib/dashboard.php:113
+msgid "PRO version"
+msgstr ""
+
+#: lib/customizer/info.php:145
+msgid "View PRO version"
+msgstr ""
+
+#: lib/dashboard.php:28
+msgid "Envo Blog theme"
+msgstr ""
+
+#: lib/dashboard.php:30
+msgid "Envo Blog dashboard"
+msgstr ""
+
+#: lib/dashboard.php:51 lib/dashboard.php:107
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: lib/dashboard.php:58
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: lib/dashboard.php:66
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: lib/dashboard.php:122
+msgid "Theme Customizer"
+msgstr ""
+
+#: lib/dashboard.php:126
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize"
+"\" to personalize your site."
+msgstr ""
+
+#: lib/dashboard.php:130
+msgid "Start customizing"
+msgstr ""
+
+#: lib/dashboard.php:134
+msgid "Theme documentation"
+msgstr ""
+
+#: lib/dashboard.php:138
+#, php-format
+msgid ""
+"Need help in setting up and configuring %s? Please take a look at our "
+"documentation page."
+msgstr ""
+
+#: lib/dashboard.php:145
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: lib/dashboard.php:151
+msgid "Having trouble? Need support?"
+msgstr ""
+
+#: lib/dashboard.php:153
+msgid "Contact us"
+msgstr ""
+
+#: lib/dashboard.php:168
+msgid "Upgrade to Envo Blog PRO for these awesome features!"
+msgstr ""
+
+#: lib/dashboard.php:171
+msgid "Unlimited colors"
+msgstr ""
+
+#: lib/dashboard.php:172
+msgid "600+ Google fonts"
+msgstr ""
+
+#: lib/dashboard.php:173
+msgid "New homepage widgets"
+msgstr ""
+
+#: lib/dashboard.php:174
+msgid "Advertising spaces"
+msgstr ""
+
+#: lib/dashboard.php:175
+msgid "Footer credits editor"
+msgstr ""
+
+#: lib/dashboard.php:176
+msgid "And much more..."
+msgstr ""
+
+#: lib/dashboard.php:180
+msgid "Envo Blog PRO"
+msgstr ""
+
+#: lib/demo-preview.php:75
+msgid "Search"
+msgstr ""
+
+#: lib/demo-preview.php:76
+msgid "Archives"
+msgstr ""
+
+#: lib/demo-preview.php:77
+msgid "Categories"
+msgstr ""
+
+#: lib/wp_bootstrap_navwalker.php:206
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr ""
+
+#: template-parts/template-part-topnav.php:7
+msgid "Toggle navigation"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr ""
+#~ "Vyberte stránku, která zobrazí podmínky používání pro registraci partnerů"

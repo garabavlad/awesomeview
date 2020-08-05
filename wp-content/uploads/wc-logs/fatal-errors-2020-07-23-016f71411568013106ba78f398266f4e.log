@@ -1,0 +1,20 @@
+2020-07-23T07:43:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Order as array in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/functions.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/awesome/wp-includes/class-wp-hook.php(286): awesome_after_payment_increase(426)
+#1 /Applications/MAMP/htdocs/awesome/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/awesome/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(79): do_action('woocommerce_tha...', 426)
+#4 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/wc-core-functions.php(211): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(247): wc_get_template('checkout/thanky...', Array)
+#6 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-short in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/functions.php on line 39
+
+2020-07-23T07:43:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Order as array in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/functions.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/awesome/wp-includes/class-wp-hook.php(286): awesome_after_payment_increase(426)
+#1 /Applications/MAMP/htdocs/awesome/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/awesome/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(79): do_action('woocommerce_tha...', 426)
+#4 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/wc-core-functions.php(211): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(247): wc_get_template('checkout/thanky...', Array)
+#6 /Applications/MAMP/htdocs/awesome/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-short in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/functions.php on line 39
+

@@ -1,0 +1,22 @@
+2020-08-01T15:23:27+00:00 CRITICAL Uncaught Error: Call to a member function fetch() on null in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/massage.php:51
+Stack trace:
+#0 /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/shortcodes.php(2050): massage_get_table_booking()
+#1 /Applications/MAMP/htdocs/awesome/wp-includes/shortcodes.php(319): reservation_massage_shortcode('', '', 'reservation_mas...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/awesome/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(reserv...', 'do_shortcode_ta...', '[reservation_ma...')
+#4 /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/templates/reservation_massage.php(11): do_shortcode('[reservation_ma...')
+#5 /Applications/MAMP/htdocs/awesome/wp-includes/template-loader.php(74): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/awesome/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/awesome/index.php(17): require('/Applicatio in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/massage.php on line 51
+
+2020-08-01T15:52:29+00:00 CRITICAL Uncaught Error: Call to a member function fetch() on null in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/massage.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/shortcodes.php(1919): massage_get_status()
+#1 /Applications/MAMP/htdocs/awesome/wp-includes/shortcodes.php(319): reservation_massage_shortcode('', '', 'reservation_mas...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/awesome/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(reserv...', 'do_shortcode_ta...', '[reservation_ma...')
+#4 /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/templates/reservation_massage.php(11): do_shortcode('[reservation_ma...')
+#5 /Applications/MAMP/htdocs/awesome/wp-includes/template-loader.php(74): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/awesome/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/awesome/index.php(17): require('/Applications/M... in /Applications/MAMP/htdocs/awesome/wp-content/themes/envo-blog/external/massage.php on line 24
+
