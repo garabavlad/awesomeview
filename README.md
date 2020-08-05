@@ -9,4 +9,6 @@ The code designed to work with the external database is located at <b>/wp-conten
 
 Make sure to set up the PDO connection from <b>external</b> folder in connection.php 
 
+The databases are locatedd in dbs folder. <b>awesome</b> is wordpress database, whereas <b>awesome_external</b> is supposed to be the external database.
+
 Have fun!
