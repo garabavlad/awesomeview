@@ -1,4 +1,4 @@
-# awesomeview
+# Awesome View
 A wordpress website, with a linked external database
 
 This is a demo WordPress web site. 
