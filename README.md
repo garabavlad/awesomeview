@@ -16,7 +16,8 @@ The databases are located in dbs folder. <b>awesome</b> is wordpress database, w
 ## Usage
 
 The live version can be seen at [this link](https://awesome-view.000webhostapp.com/).
-Due to JawsDB restrictions, the external database could not be available for all users. However, you can use your local mysql server:
+Due to JawsDB restrictions, the external database could not be available for all users. 
+However, you can use the live version with a copy of external db in your local mysql server:
 
 1. Import the external database by creating a new database and running the SQL code from [awesome_external](./dbs/awesome_external.sql) file.
 2. Set up the PDO connection from [connection.php](./wp-content/themes/envo-blog/external/connection.php), and put the credentials of your mysql server:
