@@ -1,8 +1,8 @@
 # Awesome View
-A wordpress website, with a linked external database
+A website created by me using wordpress and php, also linked with an external database.
 
 This is a demo WordPress web site. 
-Its purpose is to connect to 2 databases at the same time: the wordpress and to an external one via PDO connection and run operations which will be synced on both databases.
+Its purpose is to connect to sync the changes between 2 databases at the same time: the wordpress database and the external one via PDO connection and run operations which will be applied on both databases at the same time.
 The idea is from a personal project where I had to connect to an external database and keep tracking of purchases on both platforms (external and wp).
 
 The code designed to work with the external database is located [here](./wp-content/themes/envo-blog/external).
