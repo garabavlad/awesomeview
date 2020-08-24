@@ -9,24 +9,24 @@ The code designed to work with the external database is located [here](./wp-cont
 
 ## Databases
 
-Make sure to set up the PDO connection from <b>external</b> folder in connection.php 
+Make sure to set up the PDO connection in [connection.php](./wp-content/themes/envo-blog/external/connection.php) file.
 
 The databases are located in dbs folder. <b>awesome</b> is wordpress database, whereas <b>awesome_external</b> is supposed to be the external database.
 
 ## Usage
 
-The live version can be seen at [this link](https://awesome-view.000webhostapp.com/).
-Due to JawsDB restrictions, the external database could not be available for all users. 
-However, you can use the live version with a copy of external db in your local mysql server:
+You can check the [live version](https://awesome-view.000webhostapp.com/).
+Due to JawsDB restrictions, the external database could not be available for everyone. 
+<br>In this case, there is a workaround, by using external db in your local mysql server:
 
 1. Import the external database by creating a new database and running the SQL code from [awesome_external](./dbs/awesome_external.sql) file.
 2. Set up the PDO connection from [connection.php](./wp-content/themes/envo-blog/external/connection.php), and put the credentials of your mysql server:
+
 ``` php
 $host = 'localhost'; 
 $db   = 'your database name';
 $user = 'mysql username';
 $pass = 'mysql password';
-$charset = 'utf8mb4'; // leave as is
 ```
 
 Have fun!
